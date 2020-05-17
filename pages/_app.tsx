@@ -5,14 +5,14 @@ import { DefaultSeo } from "next-seo";
 // import {} from "dotenv";
 
 const DEFAULT_SEO = {
-  title: "Blog Tutorial Web",
+  title: "Anish's Blog",
   description: "Awesome blog tutorial website",
   openGraph: {
     type: "website",
     locale: "en",
-    title: "Blog Tutorial website",
+    title: "Anish's Blog",
     description: "Awesome blog tutorial website",
-    site_name: "BlogTutorial",
+    site_name: "Blog",
   },
 };
 
