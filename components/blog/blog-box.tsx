@@ -4,11 +4,14 @@ import styled from "styled-components";
 import Link from "next/link";
 
 type ImageContainerProps = {
-  imageUrl: string;
+  imageUrl: string,
 };
 
-const ImageContainer = styled.div<ImageContainerProps>`
-  background-image: ${props => `url(${props.imageUrl})`};
+const ImageContainer =
+  styled.div <
+  ImageContainerProps >
+  `
+  background-image: ${(props) => `url(${props.imageUrl})`};
 `;
 
 const defaultProps = {
@@ -16,15 +19,15 @@ const defaultProps = {
   description: "",
   publishedDate: "",
   readingTime: "",
-  className: ""
+  className: "",
 };
 
 type BlogBoxProps = {
-  id: string;
-  slug: string;
-  imageUrl: string;
-  title: string;
-  tags?: Array<string>;
+  id: string,
+  slug: string,
+  imageUrl: string,
+  title: string,
+  tags?: Array<string>,
 } & typeof defaultProps;
 
 export const BlogBox = (props: BlogBoxProps) => {

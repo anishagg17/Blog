@@ -10,9 +10,6 @@ export const Menu = () => {
           <NavLink>Home</NavLink>
         </Link>
       </NavItem>
-      <NavItem>
-        <NavLink href="/blog">Blog</NavLink>
-      </NavItem>
     </Nav>
   );
 };

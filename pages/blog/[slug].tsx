@@ -5,12 +5,10 @@ import { BlogApi, BlogPost } from "services";
 import { NextSeo } from "next-seo";
 
 type BlogDetailPageProps = {
-  post: BlogPost;
+  post: BlogPost,
 };
 
-export default class BlogDetailPage extends React.Component<
-  BlogDetailPageProps
-> {
+export default class BlogDetailPage extends React.Component<BlogDetailPageProps> {
   static async getInitialProps(ctx) {
     const { slug } = ctx.query;
     const api = new BlogApi();
@@ -32,9 +30,9 @@ export default class BlogDetailPage extends React.Component<
                 url: post.metaImage,
                 width: 850,
                 height: 650,
-                alt: post.metaTitle
-              }
-            ]
+                alt: post.metaTitle,
+              },
+            ],
           }}
           title={post.metaTitle}
           description={post.metaDescription}

@@ -12,7 +12,7 @@ export const Header = () => {
     <header className="bg-light">
       <div className="container">
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Flask/NextJs App</NavbarBrand>
+          <NavbarBrand href="/">Anish's Blog</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Menu />

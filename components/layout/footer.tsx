@@ -20,7 +20,7 @@ export const Footer = () => {
         </span>
         <div className="float-right">
           <a
-            href="https://github.com/martindavid/nextjs-contentful-app"
+            href="https://github.com/anishagg17/Blog"
             target="_blank"
             rel="noopener noreferrer"
           >
