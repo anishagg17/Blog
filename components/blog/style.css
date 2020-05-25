@@ -180,3 +180,22 @@
   filter: blur(5px);
   transform: rotate(-5deg);
 }
+
+@media screen and (max-width:900px){
+  .post-full-title{
+    font-size: 2.3em;
+  }
+  /* .post-full-header div{
+    font-size: 0.5em;
+  } */
+  .post-full-content{
+    padding: 50px 30px;
+    font-size: 0.95em;
+  }
+  .post-full-content h1{
+    font-size: 1.9em;
+  }
+  .post-full-content p img{
+    width:95%;
+  }
+}
