@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Darkmode from "darkmode-js";
 
 const CustomFooter = styled.footer`
   position: absolute;
@@ -9,6 +10,20 @@ const CustomFooter = styled.footer`
   line-height: 60px;
   background-color: #f5f5f5;
 `;
+
+export const options = {
+  bottom: "20px", // default: '32px'
+  right: "32px", // default: '32px'
+  left: "unset", // default: 'unset'
+  time: "0.5s", // default: '0.3s'
+  mixColor: "#fff", // default: '#fff'
+  backgroundColor: "#fff", // default: '#fff'
+  buttonColorDark: "#100f2c", // default: '#100f2c'
+  buttonColorLight: "#fff", // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: "🌓", // default: ''
+  autoMatchOsTheme: true, // default: true
+};
 
 export const Footer = () => {
   return (
@@ -27,6 +42,8 @@ export const Footer = () => {
             Github
           </a>
         </div>
+
+        {new Darkmode(options).showWidget()}
       </div>
     </CustomFooter>
   );
