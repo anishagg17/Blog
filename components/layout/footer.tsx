@@ -23,6 +23,7 @@ export const options = {
   saveInCookies: false, // default: true,
   label: "🌓", // default: ''
   autoMatchOsTheme: true, // default: true
+  zIndex: 200,
 };
 
 export const Footer = () => {
