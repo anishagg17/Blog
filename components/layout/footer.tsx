@@ -24,6 +24,7 @@ export const options = {
   label: "🌓", // default: ''
   autoMatchOsTheme: true, // default: true
   zIndex: 200,
+  "z-index": 200,
 };
 
 export const Footer = () => {
