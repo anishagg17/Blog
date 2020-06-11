@@ -44,7 +44,7 @@ export const Footer = () => {
             Github
           </a>
         </div>
-        <div style={{ zIndex: 200 }}> {new Darkmode(options).showWidget()}</div>{" "}
+//         <div style={{ zIndex: 200 }}> {new Darkmode(options).showWidget()}</div>{" "}
       </div>
     </CustomFooter>
   );
