@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Darkmode from "darkmode-js";
+// import Darkmode from "darkmode-js";
 
 const CustomFooter = styled.footer`
   position: absolute;
@@ -44,8 +44,6 @@ export const Footer = () => {
             Github
           </a>
         </div>
-//         <div style={{ zIndex: 200 }}> {new Darkmode(options).showWidget()}</div>{" "}
-      </div>
     </CustomFooter>
   );
 };
