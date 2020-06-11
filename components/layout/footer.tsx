@@ -44,6 +44,7 @@ export const Footer = () => {
             Github
           </a>
         </div>
+      </div>
     </CustomFooter>
   );
 };
