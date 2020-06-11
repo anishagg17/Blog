@@ -12,7 +12,7 @@ const CustomFooter = styled.footer`
 `;
 
 export const options = {
-  bottom: "20px", // default: '32px'
+  top: "5px", // default: '32px'
   right: "32px", // default: '32px'
   left: "unset", // default: 'unset'
   time: "0.5s", // default: '0.3s'
@@ -23,6 +23,8 @@ export const options = {
   saveInCookies: false, // default: true,
   label: "🌓", // default: ''
   autoMatchOsTheme: true, // default: true
+  zIndex: 200,
+  "z-index": 200,
 };
 
 export const Footer = () => {
@@ -42,8 +44,7 @@ export const Footer = () => {
             Github
           </a>
         </div>
-
-        {new Darkmode(options).showWidget()}
+//         <div style={{ zIndex: 200 }}> {new Darkmode(options).showWidget()}</div>{" "}
       </div>
     </CustomFooter>
   );
