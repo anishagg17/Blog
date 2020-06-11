@@ -2,7 +2,7 @@
 
 This is a codebase for blog application that I build using NextJS with Contentful API
 
-Live Demo: [https://blog.anish1712.now.sh/](https://blog.anish1712.now.sh/)
+Live Demo: https://blog.anish1712.now.sh/
 
 ## Getting Started
 
