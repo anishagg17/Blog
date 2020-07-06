@@ -181,6 +181,20 @@
   transform: rotate(-5deg);
 }
 
+.post-full-content p {
+  width: 100%;
+}
+
+.post-full-content p img{
+  margin: 0px auto;
+  display: flow-root;
+}
+
+/* .post-full-content p:has(> img){
+  text-align:center;
+} */
+
+
 @media screen and (max-width:900px){
   .post-full-title{
     font-size: 2.3em;
