@@ -6,12 +6,12 @@ import { DefaultSeo } from "next-seo";
 
 const DEFAULT_SEO = {
   title: "Anish's Blog",
-  description: "Awesome blog tutorial website",
+  description: "",
   openGraph: {
     type: "website",
     locale: "en",
     title: "Anish's Blog",
-    description: "Awesome blog tutorial website",
+    description: "",
     site_name: "Blog",
   },
 };
